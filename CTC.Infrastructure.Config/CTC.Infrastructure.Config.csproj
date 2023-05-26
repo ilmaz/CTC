@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CTC.Application\CTC.Application.csproj" />
+    <ProjectReference Include="..\CTC.Domain\CTC.Domain.csproj" />
+    <ProjectReference Include="..\CTC.Infrastructure.Acl\CTC.Infrastructure.Acl.csproj" />
+  </ItemGroup>
+
+</Project>
